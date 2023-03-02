@@ -1,0 +1,45 @@
+body {
+    background: #B8547A;
+}
+section {
+    margin-left: 800px;
+    width: 300px;
+    height: 400px;
+    background: #7B101E;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px 15px;
+    position: absolute;
+}
+#text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+    background: #B526426B;
+}
+
+#login {
+    margin-top: 120px;
+    align-self: center;
+    align-content: center;
+    position: relative;
+}
+#button {
+    height: 55px;
+    width: 160px;
+    border-radius: 10px 10px;
+    box-shadow: 3px 5px rgb(249, 0, 90, 0.235);
+    background: #65222B;
+    border: none;
+    color: #EACAD7;
+}
+.img {
+    height: 550px;
+    width: 650px;
+    margin-top: 10px;
+}
