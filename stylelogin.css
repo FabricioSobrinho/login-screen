@@ -1,45 +1,105 @@
 body {
-    background: #B8547A;
+    margin: 0;
+    background:#B8547A;
 }
-section {
-    margin-left: 800px;
-    width: 300px;
-    height: 400px;
-    background: #7B101E;
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    padding: 15px;
-    margin-top: 70px;
+}
+.lscreen {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rscreen {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dados {
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 15px 15px;
-    position: absolute;
+    padding: 30px 35px;
+    background: #7B101E;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(222, 0, 74, 0.53);
 }
-#text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 22px;
-    color: white;
-    background: #B526426B;
+.dados > h3 {
+    color: pink;
+    font-weight: 600;
+    margin-top: 19px;
+    background: #b5264379;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px -15px rgba(236, 7, 83, 0.338);
 }
-
-#login {
-    margin-top: 120px;
-    align-self: center;
-    align-content: center;
-    position: relative;
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-#button {
-    height: 55px;
-    width: 160px;
-    border-radius: 10px 10px;
-    box-shadow: 3px 5px rgb(249, 0, 90, 0.235);
-    background: #65222B;
+.field > input {
+    width: 50%;
     border: none;
-    color: #EACAD7;
+    background: none;
+    border-bottom: solid 2px #FF5FA2;
+    outline: none;
+    padding: 13px;
+    box-shadow: 0px 10px 10px rgba(222, 0, 74, 0.217);
+    box-sizing: border-box;
 }
-.img {
-    height: 550px;
-    width: 650px;
-    margin-top: 10px;
+.field > ::placeholder {
+    color: #FF5FA2;
+}
+.btn {
+    width: 60%;
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #65222B;
+    color: #EACAD7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px -12px pink;
+
+}
+button:hover {
+    background: #980844;
+    color: pink;
+    transition: all .3s ease-out;
+}
+hr {
+    width: 75%;
+}
+p {
+    color: #ff3689;
+    font-size: 15pt;
+}
+a {
+    color: #ff006a;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    color: #ff00ae;
+}
+img {
+    height: 100vh;
 }
