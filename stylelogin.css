@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 .lscreen {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 .rscreen {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@ body {
 }
 .dados {
     width: 60%;
+    height: 57%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -43,7 +44,7 @@ body {
     font-weight: 600;
     margin-top: 19px;
     background: #b5264379;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 10px 10px -15px rgba(236, 7, 83, 0.338);
 }
@@ -104,5 +105,5 @@ a:hover {
     color: #ff80b5;
 }
 img {
-    height: 100vh;
+    height: 90vh;
 }
